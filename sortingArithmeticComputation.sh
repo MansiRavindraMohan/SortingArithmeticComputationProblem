@@ -4,5 +4,5 @@ read -p "Enter 3rd number:" c
 echo $a
 echo $b
 echo $c
-Sum=$(( $a*$b+$c ))
-echo "$a*$b+$c=$Sum"
+Sum=$(( $c+$a/$b ))
+echo "$c+$a/$b=$Sum"
